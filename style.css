@@ -1,65 +1,44 @@
-*
-{
-    margin: 0;
-    padding: 0;
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Poppins:wght@300;400;500;600;700;800&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-header
-{
-    background-color:blue;
-    padding: 1rem 2rem;
-
-}
-#starting
-{
-    display:flex;
-    justify-content:space-between;
-    align-items: center;
-    flex-wrap:wrap;
-
-}
-img
-{
-    /* width:200px;
-    height:200px; */
-    margin-left: 1rem;
-    margin-top: 10px;
-}
-.starting-text
-{
-    text-align:right;
-    font-weight:500;
-}
-.starting-intro
-{
-    font-size:35px;
-    margin: 5px;
-}
-.starting-intro-hindi
-{
-    font-size:26px;
-    margin: 5px;
-}
-.National-Importance
-{
-    padding: 5px 0px;
-    margin: 5px;
-    font-size: 25px;
+.container-1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.4rem;
 }
 
-.Navigator
-{
-    background-color:beige;
-    padding:18px 30px;
-   display: grid; 
-   grid-template-columns:auto auto auto auto auto auto auto auto auto;
-   column-gap: 10px;
-   justify-content:space-evenly;
-   font-size: 1.2rem;
-   font-weight:500;
+.heading {
+  margin-bottom: 1.2rem;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.8rem;
+  text-align: right;
 }
-.nav-text:hover
-{
-   text-decoration: underline;
-   text-decoration-color:coral;
-   text-decoration-thickness: 4px;
+.sub-heading {
+  font-family: "Poppins", sans-serif;
+  text-align: right;
+  font-size: 1.4rem;
+}
+.nav-bar {
+  padding: 1.5rem 4rem 1.5rem 4rem;
+  background-color: rgb(241, 235, 235);
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 2rem 0 2rem;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  font-size: 1.4rem;
+  font-weight: 550;
+}
+li {
+  list-style-type: none;
 }
