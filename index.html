@@ -4,33 +4,104 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Indian Institute of Information Technology, Sonepat</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
+    <title>IIIT Sonepat</title>
 </head>
 <body>
     <header>
-        <div id="starting">
-            <div class="starting-logo">
-                <img src="./photos/iiitsonepatlogo.png" alt="Logo">
+        <div class="container-1 container">
+            <div class="logo">
+                <img src="./assets/iiitsonepatlogo.png" alt="">
             </div>
-             <div class="starting-text">
-                     <p class="starting-intro">Indian Institute of Information Technology, Sonepat</p>
-                     <p class="starting-intro-hindi">भारतीय सूचना प्रौद्योगिकी संस्थान, सोनीपत
-                     </p>
-                     <p class="National-Importance">(An Institute of National Importance by the Act of Parliament)</p>
-             </div>
+            <div class="logo-title">
+                <h1 class="heading">Indian Institute of Information Technology,Sonepat</h3> 
+                <h2 class="sub-heading" style="text-align: right;">(An Institute of national importance by the act of Parliament)</h3>
             </div>
+        </div>
+        <div class="nav-bar">
+            <nav class="container">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Academics</a></li>
+                <li><a href="#">Admission</a></li>
+                <li><a href="#">Examinations</a></li>
+                <li><a href="#">Life @ IIITs</a></li>
+                <li><a href="#">Placements</a></li>
+                <li><a href="#">Jobs</a></li>
+                <li><a href="#">Tenders</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </nav>
+        </div>
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active ">
+                    <img src="./assets/pic1.webp" class="d-block w-100" alt="..." style="height: 60vh;">
+                </div>
+                <div class="carousel-item">
+                    <img src="./assets/pic2.jpg" class="d-block w-100" alt="..." style="height: 60vh;">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+            </button>
+        </div>
     </header>
-    <nav class="Navigator">
-                  <div class="nav-text">Home</div>
-                  <div class="nav-text">Academics</div>
-                  <div class="nav-text">Admission</div>
-                  <div class="nav-text">Examination</div>
-                  <div class="nav-text">Life @IIITS</div>
-                  <div class="nav-text">Placement</div>
-                  <div class="nav-text">Jobs</div>
-                  <div class="nav-text">Tenders</div>
-                  <div class="nav-text">Contact Us</div>
-    </nav>
+    <main class="container" style="position: relative; top:-10vh">
+        <section>
+            <div class="card" style="width: 18rem; width:100%;">
+                <div class="card-body container">
+                    <div class="row px-3 py-3">
+                        <div class="col-3 px-0 py-0 d-flex">
+                            <img src="./assets/iiitsonepatlogo.png" class="mx-4" alt="" style="height: 18vh;">
+                            <div class="row"><h2 class="align-self-center" style="font-weight: 550; font-size: 1.8rem;">E-cell</h2>
+                            <p>Technical Club</p>
+                            </div>
+                        </div>
+                        <div class="col-3 px-0 py-0 d-flex">
+                            <img src="./assets/iiitsonepatlogo.png" class="mx-4" alt="" style="height: 18vh;">
+                            
+                            <div class="row">
+                                <h2 class="align-self-center" style="font-weight: 550; font-size: 1.8rem;">Fit-Me</h2>
+                                <p>Fitness Club</p>
+                            </div>
+                        </div>
+                        <div class="col-3 px-0 py-0 d-flex">
+                            <img src="./assets/iiitsonepatlogo.png" class="mx-4" alt="" style="height: 18vh;">
+                            <div class="row">
+                                <h2 class="align-self-center" style="font-weight: 550; font-size: 1.8rem;">Impact</h2>
+                                <p>Impact Club</p>
+                            </div>
+                        </div>
+                        <div class="col-3 px-0 py-0 d-flex">
+                            <img src="./assets/iiitsonepatlogo.png" class="mx-4" alt="" style="height: 18vh;">
+                            <div class="row">
+                                <h2 class="align-self-center" style="font-weight: 550; font-size: 1.8rem;">GDSC</h2>
+                                <p>Developers Club</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <img src="./assets/pic2.jpg" class="card-img-top d-block" style="height: 60vh;">
+            </div>
+        </section>
+        <section style="margin-top: 4.2rem;">
+            <div class="jumbotron row bg-warning" style="padding: 2.5rem; border-radius:9px;">
+                <h1 class="display-4 col-6 align-self-center" style="font-weight: 700;">About IIIT Sonepat</h1>
+                <div class="about col-6">
+                    
+                    <p style="font-size: 1.5rem; font-weight:600">Indian Institutes of Information Technology (IIITs) are a group of institutes of higher education in India, focused on information technology. Five of them are established, funded and managed by the Ministry of Human Resource Development. The rest are set up on the public-private partnership (PPP) model. </p>
+                    <p class="lead">Indian Institute of Information Technology, Sonepat (IIIT, Sonepat) is one of the Indian Institutes of Information Technology located at Sonepat, Haryana. The academic session of IIIT Sonepat started from its mentor Institute National Institute of Technology, Kurukshetra from year 2014. IIIT Sonepat is a joint venture of the Ministry of Human Resource Development, Government of India, the Govt. of Haryana, with Industries in Public-Private Partnership model and has been declared as the Institute of national importance.</p>
+                    <a class="btn btn-primary btn-lg" href="#" role="button">Read more</a>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
 </html>
+
