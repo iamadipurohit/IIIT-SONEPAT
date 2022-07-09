@@ -1,0 +1,65 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+header
+{
+    background-color:bisque;
+    padding: 1rem 2rem;
+
+}
+#starting
+{
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    flex-wrap:wrap;
+
+}
+img
+{
+    /* width:200px;
+    height:200px; */
+    margin-left: 1rem;
+    margin-top: 10px;
+}
+.starting-text
+{
+    text-align:right;
+    font-weight:500;
+}
+.starting-intro
+{
+    font-size:35px;
+    margin: 5px;
+}
+.starting-intro-hindi
+{
+    font-size:26px;
+    margin: 5px;
+}
+.National-Importance
+{
+    padding: 5px 0px;
+    margin: 5px;
+    font-size: 25px;
+}
+
+.Navigator
+{
+    background-color:beige;
+    padding:18px 30px;
+   display: grid; 
+   grid-template-columns:auto auto auto auto auto auto auto auto auto;
+   column-gap: 10px;
+   justify-content:space-evenly;
+   font-size: 1.2rem;
+   font-weight:500;
+}
+.nav-text:hover
+{
+   text-decoration: underline;
+   text-decoration-color:coral;
+   text-decoration-thickness: 4px;
+}
